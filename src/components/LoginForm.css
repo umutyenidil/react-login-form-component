@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 440px;
+    padding: 0 20px;
+    margin: 180px auto;
+}
+
+.wrapper {
+    background: #fff;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.wrapper .title {
+    line-height: 80px;
+    display: flex;
+    justify-content: center;
+    background: #16a085;
+    border-radius: 5px 5px 0 0;
+}
+
+.title span {
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.wrapper form {
+    padding: 30px 25px 25px 25px;
+}
+
+.wrapper form .row {
+    height: 45px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.row input {
+    height: 100%;
+    width: 100%;
+    padding-left: 60px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.row input:focus {
+    border-color: #16a085;
+    box-shadow: inset 0 0 2px 2px rgba(26, 188, 156, 0.25);
+}
+
+.row i {
+    position: absolute;
+    width: 45px;
+    height: 100%;
+    background: #16a085;
+    border: 1px solid #16a085;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 22px;
+    border-radius: 5px 0 0 5px;
+}
+
+.button input {
+    padding-left: 0;
+    background: #16a085;
+    border: 1px solid #16a085;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.button input:hover {
+    background: #12876f
+}
+
+.wrapper form .forgot-password-link {
+    margin: -8px 0 20px 0;
+}
+
+.wrapper form .forgot-password-link a {
+    text-decoration: none;
+    color: #16a085;
+    font-size: 17px;
+}
+
+.wrapper form .forgot-password-link a:hover {
+    text-decoration: underline;
+    color: #16a085;
+}
+
+.wrapper form .signup-link {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.wrapper form .signup-link a {
+    text-decoration: none;
+    color: #16a085;
+}
+
+.wrapper form .signup-link a:hover {
+    text-decoration: underline;
+    color: #16a085;
+}
