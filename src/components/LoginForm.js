@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import './LoginForm.css';
+import SubmitButton from "./SubmitButton";
 
 const LoginForm = () => {
     const [enteredUsername, setEnteredUsername] = useState('');
@@ -54,7 +55,7 @@ const LoginForm = () => {
                         </a>
                     </div>
                     <div className='row button'>
-                        <input type='submit' value='Login'/>
+                        <SubmitButton>Login</SubmitButton>
                     </div>
                     <div className='signup-link'>
                         <span>Not a member? </span>
